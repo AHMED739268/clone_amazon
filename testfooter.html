@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Footer متجاوب</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+
+  /* تحسين شكل الفوتر */
+  #containerFluid-4, #containerFluid-5, #containerFluid-6 {
+        background-color: #232F3E;
+        color: white;
+        padding: 20px 0;
+    }
+
+    #containerFluid-3 {
+        background-color: #37475A;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #containerFluid-3 a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #FooterContainer, #FooterContainer6 {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    #Fcolumn h5 {
+        color: #ffffff;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #Fcolumn ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    #Fcolumn ul li {
+        font-size: 14px;
+        padding: 5px 0;
+        transition: color 0.3s;
+    }
+
+    #Fcolumn ul li:hover {
+        color: #FFD700;
+        cursor: pointer;
+    }
+
+    #FooterImage img {
+        width: 120px;
+    }
+
+    /* جعل القائمة السفلية أكثر ترتيبًا */
+    #diffLanguages ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #diffLanguages ul li {
+        margin: 5px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    #diffLanguages ul li:hover {
+        color: #FFD700;
+    }
+
+    /* جعل الفوتر متجاوبًا */
+    @media (max-width: 768px) {
+        .page-footer .row {
+            text-align: center;
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+
+   
+<div class="container-fluid" id="containerFluid-3">
+    <a href="#top">
+        <div>Back to Top</div>
+    </a>
+</div>
+
+<div class="container-fluid" id="containerFluid-4">
+    <footer class="page-footer">
+        <div class="container" id="FooterContainer">
+            <div class="row">
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Get to Know Us</h5>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Press Releases</li>
+                        <li>Amazon Cares</li>
+                        <li>Gift a Smile</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Connect with Us</h5>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Make Money with Us</h5>
+                    <ul>
+                        <li>Sell on Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Fulfilment by Amazon</li>
+                        <li>Advertise Your Products</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Let Us Help You</h5>
+                    <ul>
+                        <li>Your Account</li>
+                        <li>Returns Centre</li>
+                        <li>100% Purchase Protection</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<div class="container-fluid" id="containerFluid-5">
+    <div class="container" id="CF5container">
+        <div id="FooterImage">
+            <img src="images/amazon.png" alt="footerLogo">
+        </div>
+    </div>
+    <div class="container" id="CF5container2">
+        <div id="diffLanguages">
+            <ul>
+                <li>Australia</li>
+                <li>Brazil</li>
+                <li>China</li>
+                <li>France</li>
+                <li>Germany</li>
+                <li>Italy</li>
+                <li>Japan</li>
+                <li>Mexico</li>
+                <li>United Kingdom</li>
+                <li>United States</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="containerFluid-6">
+    <footer class="page-footer text-center">
+        <div class="container" id="FooterContainer6">
+            <div class="row">
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>ABeBooks</h5>
+                    <ul>
+                        <li>Books, Art & Collectibles</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Amazon Web Services</h5>
+                    <ul>
+                        <li>Scalable Cloud Computing</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>Audible</h5>
+                    <ul>
+                        <li>Download Audio Books</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6" id="Fcolumn">
+                    <h5>IMDB</h5>
+                    <ul>
+                        <li>Movies, TV & Celebrities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            <a href="#">Condition of Use</a> |
+            <a href="#">Privacy Notice</a> |
+            <a href="#">Interest-Based Ads</a>
+        </div>
+    </footer>
+</div>
+
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
